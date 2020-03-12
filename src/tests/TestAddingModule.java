@@ -1,7 +1,7 @@
 package tests;
 
-import com.SolutionsInterface;
-import com.SolutionsInterfaceImpl;
+import solutions.SolutionsInterface;
+import solutions.SolutionsInterfaceImpl;
 import org.junit.Test;
 
 import java.util.ArrayList;

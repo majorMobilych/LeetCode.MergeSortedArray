@@ -1,4 +1,4 @@
-package com;
+package solutions;
 
 public interface SolutionsInterface {
     /**
