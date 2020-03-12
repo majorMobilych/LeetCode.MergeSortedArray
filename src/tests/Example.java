@@ -15,7 +15,8 @@ public class Example {
         this.desiredResult = desiredResult;
     }
     /* Initialize "Example" object where you get desiredResult auto-generated;
-     * mergeUsingIntStreams(firstArray, secondArray) might always work correctly */
+     * mergeUsingIntStreams(firstArray, secondArray) might always work correctly,
+     * so it is easy for using during tests */
     Example(int[] firstArray, int[] secondArray) {
         this.firstArray = firstArray;
         this.secondArray = secondArray;
