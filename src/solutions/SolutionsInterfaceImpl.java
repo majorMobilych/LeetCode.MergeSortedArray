@@ -9,9 +9,9 @@ public class SolutionsInterfaceImpl implements SolutionsInterface {
         /* Merged array of two given arrays; as far as it is merged of two arrays, it's size will be
          * sum of lengths of those given arrays */
         int[] merged = new int[firstArray.length + secondArray.length];
-        /* currentFirst - pivot in first given array */
+        /* currentFirst - pointer in first given array */
         int currentFirst = 0,
-                /* currentSecond - pivot in second given array */
+                /* currentSecond - pointer in second given array */
                 currentSecond = 0,
                 /* currentMerged - last-assigned element in merged array */
                 currentMerged = 0;
