@@ -37,7 +37,7 @@ public class SolutionsInterfaceImpl implements SolutionsInterface {
             merged[currentMerged++] = secondArray[currentSecond++];
         }
 
-        /* At the end, we get desired array */
+        /* In the end, we get desired array */
         return merged;
     }
 
