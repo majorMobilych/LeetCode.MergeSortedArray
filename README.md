@@ -14,4 +14,5 @@ are pointers in ```firstArray``` and ```secondArray``` respecrively (meaning, ``
   Else, if for some ```currentFirst``` and ```currentSecond```, 
   ```jsx
   firstArray[currentFirst] > secondArray[currentSecond]
-  ``` 
+  ```
+  we assign ```merged[currentMerged]``` with ```secondArray[currentSecond]``` and increase ```currentMerged``` and ```currentSecond```.
